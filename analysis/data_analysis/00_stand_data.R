@@ -99,7 +99,7 @@ str(NFI_plot_constant)
 NFI_species_constant <- read.csv(paste0(here::here(), "/data/raw_obs/nfi/Species_names.csv"))
 str(NFI_species_constant)
 
-# Species names
+# Climate
 NFI_climate <- read.csv(paste0(here::here(), "/data/raw_obs/nfi/MIND_plot_annual_temp_precip.csv"),sep=";")
 str(NFI_climate)
 NFI_climate_plot <- NFI_climate %>% 
